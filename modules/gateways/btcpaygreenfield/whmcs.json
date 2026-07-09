@@ -1,0 +1,26 @@
+{
+  "schema": "1.0",
+  "type": "whmcs-gateways",
+  "name": "btcpaygreenfield",
+  "license": "mit",
+  "category": "payments",
+  "description": {
+    "name": "BTCPay Server Greenfield (v1)",
+    "tagline": "Accept non-custodial Bitcoin and Altcoin payments via Greenfield API.",
+    "long": "Parallel Greenfield API gateway for BTCPay Server. Runs alongside the legacy btcpay module for safe testing and migration."
+  },
+  "logo": {
+    "filename": "btcpay.png"
+  },
+  "support": {
+    "homepage": "https:\/\/theonionhost.com\/",
+    "support_url": "https:\/\/theonionhost.com\/",
+    "docs_url": "https:\/\/docs.btcpayserver.org\/API\/Greenfield\/v1\/"
+  },
+  "authors": [
+    {
+      "name": "Developed by TheOnionHost",
+      "homepage": "https:\/\/theonionhost.com\/"
+    }
+  ]
+}
