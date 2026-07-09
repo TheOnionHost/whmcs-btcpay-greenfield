@@ -1,8 +1,10 @@
 # BTCPay Server WHMCS Gateway — Greenfield (v1.0.0)
 
-Parallel Greenfield API gateway module (`btcpaygreenfield`) for [BTCPay Server](https://btcpayserver.org). Runs **alongside** the legacy `btcpay` module so you can test without affecting production payments.
+Greenfield API gateway module (`btcpaygreenfield`) for [BTCPay Server](https://btcpayserver.org). This repo ships **Greenfield only** — not the legacy `btcpay` plugin.
 
 Developed by **[TheOnionHost](https://theonionhost.com)**.
+
+For a full **legacy vs Greenfield** comparison and legacy security problems, see the [root README](../../../README.md).
 
 ## Module layout
 
@@ -13,7 +15,7 @@ Developed by **[TheOnionHost](https://theonionhost.com)**.
 | Webhook callback | `modules/gateways/callback/btcpaygreenfield.php` |
 | WHMCS paymentmethod | `btcpaygreenfield` |
 
-Legacy `btcpay` (v3.2.2) is unchanged and can remain active in parallel.
+Legacy `btcpay` is not included in this repository. Install only these paths under your WHMCS `modules/gateways/` directory.
 
 ## Requirements
 

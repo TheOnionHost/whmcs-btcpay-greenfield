@@ -7,7 +7,7 @@
   "description": {
     "name": "BTCPay Server Greenfield (v1)",
     "tagline": "Accept non-custodial Bitcoin and Altcoin payments via Greenfield API.",
-    "long": "Parallel Greenfield API gateway for BTCPay Server. Runs alongside the legacy btcpay module for safe testing and migration."
+Parallel Greenfield API gateway for BTCPay Server and WHMCS. Replaces the deprecated legacy BitPay-compatible API with secure store webhooks.
   },
   "logo": {
     "filename": "btcpay.png"
